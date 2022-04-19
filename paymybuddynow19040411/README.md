@@ -1,17 +1,13 @@
-# YouTube Tutorial Series - Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL
+L'application paymybuddy a été créée en suivant les instructions, certaines fonctions non demandées ont été implémentées pour permettre la démonstration de bon fonctionnement du logiciel
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 1 at https://youtu.be/Hk70e7KR290
+l'application a été créée en utilisant SPRING Jpa mysql SPRING security ThYMELEAF SPRING WEB
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 2 at https://youtu.be/JE7KaTIF1Z4
+L'application a été designée sous le pattern REPOSITORY MVC
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 3 at https://youtu.be/VqitTIMG5uI
+L'analyse UML montrait qu'il était necessaire de disposer d'une entité USER, d'une entité CONNEXION qui représente les users qui établissent des transactions de 1 à 1  et enfin une entité TRANSACTION qui représentait une transaction établit par deux users définit dans une connexion
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 4 at https://youtu.be/uS8zA3W8p5s
+MVC Classique un controlleur sur chaque vue en interaction avec l'utilisateur, un service qui rassemeble tous les calculs, un repository qui effectue la liaison bidirectionnelle entre le service et la base de données MySQL, un model contenant les entités.
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 5 at https://youtu.be/hPCynjmapSo
+la base de données a été générée directement par SPRING au travers des entités et des diverses relations entre les entités du Modele.
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 6 at https://youtu.be/hE_STc3eWzE
-
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 7 at https://youtu.be/Tu3lBxlFBlM
-
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 8 at https://youtu.be/KKjKFLKlCbc
+Le code est commenté et explique la gestion des transactionts
