@@ -10,4 +10,4 @@ MVC Classique un controlleur sur chaque vue en interaction avec l'utilisateur, u
 
 la base de données a été générée directement par SPRING au travers des entités et des diverses relations entre les entités du Modele.
 
-Le code est commenté et explique la gestion des transactionts
+Le code est commenté et explique la gestion des transactions
