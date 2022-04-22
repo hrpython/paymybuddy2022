@@ -11,3 +11,8 @@ MVC Classique un controlleur sur chaque vue en interaction avec l'utilisateur, u
 la base de données a été générée directement par SPRING au travers des entités et des diverses relations entre les entités du Modele.
 
 Le code est commenté et explique la gestion des transactions
+
+
+![umlPaymyBuddy](https://user-images.githubusercontent.com/56394467/164676262-6bf5dfac-3cea-4d5e-89fd-c50c74925753.png)
+
+![PayMyBuddympd](https://user-images.githubusercontent.com/56394467/164675699-8f17380d-6ac8-41fa-bc55-34c620c3e667.png)
